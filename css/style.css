@@ -1,0 +1,75 @@
+*:focus{
+  border: 1px solid red;
+}
+body{
+  padding-left: 15px;
+  font-family: 'Quicksand', sans-serif;
+  line-height: 1.5;
+  color: #c12258;
+  background: #dddddd url('../images/pidgeon-background.jpg');
+  background-repeat: no-repeat;
+}
+h1{
+  font-size: 2em;
+}
+main, footer{
+  color:black;
+  font-size: 18px;
+  padding-top: 15px;
+}
+a{
+  font-size: 18px;
+  color: #c12258
+}
+a:active{
+  text-decoration: underline;
+}
+table{
+  border: 2px solid black;
+  border-collapse: separate;
+  border-spacing: 0;
+  border-radius: 10px;
+}
+.colhead{
+  min-width: 150px;
+  padding: 10px;
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  background-color: #7e0830;
+}
+tbody tr th, tbody tr td{
+  text-align: center;
+  padding: 15px;
+  border-bottom: 2px solid black;
+}
+tbody tr:last-child th, tbody tr:last-child td{
+  border-bottom: none;
+}
+tbody tr:nth-child(even){
+  background-color: #dddddd;
+}
+tbody tr:hover{
+  background-color:#fab9cf;
+}
+thead tr th:first-child{
+  border-radius: 10px 0px 0px 0px;
+}
+thead tr th:last-child{
+  border-radius: 0px 10px 0px 0px;
+}
+tbody tr:last-child th:first-child{
+  border-radius: 0px 0px 0px 10px;
+}
+tbody tr:last-child td:last-child{
+  border-radius: 0px 0px 10px 0px;
+}
+footer{
+  text-align: center;
+  color: white;
+  background-color: black;
+  min-height: 60px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
